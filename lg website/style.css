@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding:15px 50px 50px 0px; */
+    /* background-color:#5D6D7E; */
+    min-height: 8vh;
+    /* background-color:  #F2F0F8  */
+    box-shadow: 5px 2px whitesmoke;
+
+}
+
+.logo_image{
+    width: 100px;
+    height: auto;
+}
+.logo{
+    margin-left: 10px;
+    color:darkslateblue ;
+    opacity: 0.7;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    /* color: white; */
+    text-decoration: none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:darkkhaki;
+    transition: 0.3s;
+
+}
+
+nav ul li .sun-menu{
+    position:absolute;
+    z-index: 1;
+
+}
+
+.profile{
+    margin-right: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.head1{
+    font-size: 23px; 
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image1{
+    position: relative;
+}
+.first-txt{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 750px;
+    font-size: 40px;
+}
+.second-txt{
+    color: white;
+    position: absolute;
+    bottom: 180px;
+    left: 750px;
+    font-size:20px ;
+}
+.button{
+    position: absolute;
+    bottom: 120px;
+    left: 750px;
+    width: 150px;
+    height: 40px;
+    background-color:#EE1E1E ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .9;
+}
+.pc{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+}
+.center_text{
+    margin-top: 80px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.center_text1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.center_text2{
+    margin-top: 50px;
+    margin-bottom: 1 0px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+/* gaming monitors section */
+.gaming_monitors{
+    margin-left: 100px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper_text{
+    /* display: flex; */
+    /* margin-left:30px ; */
+    /* margin-bottom: 30px; */
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.upper_text_center{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.crazyload{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.div1:hover{
+    text-decoration: underline;
+}
+
+.lower_text{
+    display: flex;
+    /* font-weight: light; */
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.pc2{
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+}
+
+/* aliging text on image 2 */
+
+.upper_text2{
+    width: 500px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+.pc2_upper_text{
+    /* display: flex; */
+    font-size: 40px;
+    line-height: 65px;
+    color: white;
+    font-weight: 800;
+}
+
+.lower_text2{
+    width: 500px;
+    position: absolute;
+    bottom: 130px;
+    left: 100px;
+}
+
+.pc2_lower_text{
+    color: white;
+    font-size: 18px;
+}
+
+.button2{
+    margin-top:30px ;
+    width: 150px;
+    height: 40px;
+    background-color:#EE1E1E ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button2:hover{
+    opacity: 0.9;
+}
+
+.center_div{
+    margin-top:50px ;
+    display: flex;
+    justify-content: space-around;
+    /* margin-left:40px ; */
+}
+
+.free{
+    margin-top: 20px;
+}
+.button3{
+    margin-top:10px ;
+    width: 150px;
+    height: 40px;
+    background-color:#EE1E1E ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+} 
+
+.helpline2{
+    margin-bottom: 30px;
+}
+
+.helpline{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat{
+    /* margin-left:10px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .lazyloaded{
+    width: 80px;
+    height: auto;
+} */
+.spacing{
+    margin-top: 10px;
+    margin-right:5px ;
+}
+
+.size{
+    font-size: 40px;
+}
+
+.about_text{
+    font-size:15px ;
+    font-weight: lighter;
+}
+
+.footer1{
+    width: 100%;
+    height: 36vh;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.inside_footer{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+    /* background-color: red; */
+}
+
+
+.logo2{
+    margin-left: 30px;
+}
+
+
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* signup and login page */
+
+.signup_login_section{
+    margin: auto;
+    width: 90%;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3f6f4;
+}
+
+.signup_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 90px;
+}
+
+.signup_text{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.input{
+    margin-top: -10px;
+    display: block;
+    width: 400px;
+    height: 40px;
+    /* margin-bottom: 10px; */
+    outline: none;
+}
+
+.captcha_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    background-color: darkgrey;
+}
+
+
+.input_captcha{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    
+}
+
+.signin_btn{
+    background-color: #EE1E1E;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 3px 3px grey ;
+}
+.login_section{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.login_text{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+
+/* signup page css */
+
+#signup_container{
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.sign-up-desc{
+    margin: 30px 80px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 13px;
+    color: #6b6b6b;
+    border-bottom: 1px solid #e4e4e4;
+}

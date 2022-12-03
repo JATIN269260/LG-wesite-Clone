@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="logo">
+            <img src="https://www.lg.com/lg5-common/images/common/header/logo-b2c.jpg" alt="LG logo (Life's Good)"
+                class="logo_image">
+        </div>
+        <ul>
+            <li><a href="#">Home</a>
+            <li>
+            <li class="menu-item-has-children"><a href="#">About Us <i class="fa fa-caret-down"></i></a>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Newly launched</a></li>
+        </ul>
+        <div class="profile">
+            <span><i class="fa-solid fa-user"></i></span>
+            <span style="padding
+            :4px;"></span>
+            <span></span>
+            <span style="width:20px;margin-left: 20px;"><i class="fa-solid fa-cart-shopping"></i><span>
+        </div>
+    </nav>
+
+    <h1 class="center_text2"> Sign Up</h1>
+    <p style="display: flex;justify-content:center;margin-bottom: 50px;">Create an account to view your activity and
+        receive personalized product information.
+    </p>
+
+    <form action="" method="post" id="signup_container">
+        <div class="field-container">
+            <div class="sign-up-desc">
+                Simply enter your email and basic information to create an account. Not sure if you already have an
+                account? Enter your email to find your account.
+            </div>
+            <div class="column-box">
+                <dl>
+                    <dt>
+                        <label for="txtboxemail">Email Address<sup
+                                style="color:#EE1E1E ;font-weight: bold;">*</sup></label>
+                    </dt>
+                    <dd class="field-box">
+                        <input type="email" data-type="email" id="txtBoxEmail" class="email full-width" name="email"
+                            maxlength="100" placeholder="" title="Email" required="" value="" aria-invalid="false"
+                            aria-describedby="txtBoxEmailError">
+
+                        <div class="error-msg" id="error-msg01">
+                            <span class="required" style="display: none;">Email Account is required.</span>
+                            <span class="invalid" style="display: none;">Email Address Invalid.</span>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+            
+        </div>
+    </form>
+</body>
+
+</html>
